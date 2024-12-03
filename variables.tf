@@ -58,41 +58,6 @@ variable "login_username" {
   default = "none"
 }
 
-variable "az-vm-adminpassword" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "azure_subscription_id" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "subscription_id" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "az-vm-adminuser" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "tenant_id" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "azurerm_resource_group_name" {
-  description = "used for az VMs"
-  default = "none"
-}
-
-variable "login_password" {
-  description = "used for az VMs"
-  default = "none"
-}
-
 variable "vault_address" {
   description = "vault"
   default = "none"
